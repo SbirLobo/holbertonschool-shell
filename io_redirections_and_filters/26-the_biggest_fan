@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f 1 | sort -f | uniq -c | sort | tail -n 11 | sort -r | tr -s " " | cut -d " " -f3
+cut -f 1 | sort -f | uniq -c | sort | tail -n 11 | sort -gr | tr -s " " | cut -d " " -f3
