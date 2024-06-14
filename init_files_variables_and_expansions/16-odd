@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -ne 'print if $.%2'
+cat -n | grep "[0-9]*[13579]\s" | rev | cut -f 1 | rev
